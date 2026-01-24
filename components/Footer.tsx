@@ -9,10 +9,10 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-              DesignStore
+              webkitstore
             </h3>
             <p className="text-gray-400">
-              Premium design templates for modern businesses. Crafted with precision, delivered with excellence.
+              Premium websites design templates for modern businesses. Crafted with precision, delivered with excellence.
             </p>
           </div>
 
@@ -97,7 +97,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
           <p>
-            Copyright {currentYear} DesignStore. All rights reserved. Built with Next.js and TypeScript.
+            Copyright {currentYear} webkitstore. All rights reserved. Built with Next.js and TypeScript.
           </p>
         </div>
       </div>
