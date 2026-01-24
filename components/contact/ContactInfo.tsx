@@ -1,30 +1,36 @@
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Instagram } from 'lucide-react';
 
 export default function ContactInfo() {
   const contactDetails = [
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      content: 'hello@designstore.com',
-      link: 'mailto:hello@designstore.com'
+      content: 'rohitkumar.7860830@gmail.com',
+      link: 'mailto:rohitkumar.7860830@gmail.com'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      content: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      content: 'Not Available',
+      link: 'Not Available'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Office',
-      content: '123 Design Street, San Francisco, CA 94102',
-      link: 'https://maps.google.com'
+      content: 'Coming Soon',
+      link: 'Coming Soon'
     },
     {
       icon: <Clock className="w-6 h-6" />,
       title: 'Business Hours',
-      content: 'Mon-Fri: 9:00 AM - 6:00 PM PST',
+      content: '7 Days : 9:00 AM - 6:00 PM PST',
       link: null
+    },
+    {
+      icon: <Instagram className="w-6 h-6" />,
+      title: 'Instagram',
+      content: '7 Days : 9:00 AM - 6:00 PM PST',
+      link: "https://www.instagram.com/@rohit.tho8s"
     }
   ];
 
