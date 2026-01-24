@@ -1,0 +1,13 @@
+
+# robots.txt
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin or private pages (if any in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://webkitstore.netlify.app/sitemap.xml
