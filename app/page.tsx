@@ -7,8 +7,8 @@ import Testimonials from "@/components/home/Testimonials";
 import CTA from "@/components/home/CTA";
 
 export const metadata: Metadata = {
-  title: "Home - DesignStore | Premium Design Solutions",
-  description: "Build brilliant digital experiences fast with premium design templates. Trusted by industry leaders worldwide for cutting-edge web solutions.",
+  title: "webkitStore - Premium websites , Design & digital Solutions",
+  description: "Build brilliant digital experiences fast with premium design templates. webkitstore provides you cutting-edge web solutions.",
 };
 
 export default function Home() {
