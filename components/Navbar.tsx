@@ -31,13 +31,13 @@ export default function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
           ? 'backdrop-blur-xl bg-white/70 shadow-lg'
-          : 'bg-transparent'
+          : 'bg-white'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 py-4">
+      <div className="max-w-7xl mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-            DesignStore
+            webkitstore
           </Link>
 
           {/* Desktop Menu */}
@@ -55,7 +55,7 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <button className="px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full hover:shadow-lg transition-all">
+            <button className=" text-sm px-3 py-1 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full hover:shadow-lg transition-all">
               Get Started
             </button>
           </div>
@@ -71,14 +71,14 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden pt-4 pb-2">
+          <div className=" flex flex-col md:hidden pt-4 pb-2">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`block py-2 ${
+                className={`flex justify-center text-3xl font-bold py-2 ${
                   pathname === link.href
-                    ? 'text-purple-600 font-semibold'
+                    ? 'text-purple-600 font-bold bg-purple-100 rounded-full'
                     : 'text-gray-700'
                 }`}
                 onClick={() => setIsMobileMenuOpen(false)}
@@ -86,7 +86,7 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <button className="w-full mt-4 px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full">
+            <button className="mt-4 px-6 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full w-fit self-center">
               Get Started
             </button>
           </div>
