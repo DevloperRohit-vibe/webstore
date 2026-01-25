@@ -9,7 +9,7 @@ export default function CTA() {
           Ready to Start Your Project?
         </h2>
         <p className="text-xl mb-12 opacity-90">
-          Join thousands of businesses who have already transformed their digital presence with DesignStore.
+          Join thousands of businesses who have already transformed their digital presence with growkit.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <Link

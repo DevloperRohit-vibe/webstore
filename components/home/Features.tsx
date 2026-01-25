@@ -38,7 +38,7 @@ export default function Features() {
     <section className="py-32 px-6 bg-gradient-to-br from-slate-50 via-white to-slate-100">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <h2 className="text-5xl md:text-6xl font-bold mb-6">Why Choose DesignStore?</h2>
+          <h2 className="text-5xl md:text-6xl font-bold mb-6">Why Choose growkit?</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Everything you need to build exceptional digital experiences, all in one place.
           </p>

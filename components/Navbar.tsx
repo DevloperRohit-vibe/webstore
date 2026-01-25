@@ -67,7 +67,7 @@ export default function Navbar() {
             href="/" 
             className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent"
           >
-            webkitstore
+            growkit
           </Link>
 
           {/* Desktop Menu */}
