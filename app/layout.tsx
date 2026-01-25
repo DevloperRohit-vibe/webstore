@@ -5,12 +5,12 @@ import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
 
 export const metadata: Metadata = {
-  title: "growkit - Premium Design Solutions",
+  title: "webkitstore - Premium Design Solutions",
   description: "Transform your vision into stunning websites with our premium design templates. Crafted for perfection, optimized for performance.",
   keywords: "web design, website templates, premium designs, modern websites, UI/UX, responsive website design",
-  authors: [{ name: "growkit" }],
+  authors: [{ name: "webkitstore" }],
   openGraph: {
-    title: "growkit - Premium Design Solutions",
+    title: "webkitstore - Premium Design Solutions",
     description: "Transform your vision into stunning websites with our premium design templates.",
     type: "website",
   },

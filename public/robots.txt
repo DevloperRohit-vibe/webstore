@@ -10,4 +10,4 @@ Allow: /
 # Disallow: /private/
 
 # Sitemap location
-Sitemap: https://growkit.netlify.app/sitemap.xml
+Sitemap: https://webkitstore.netlify.app/sitemap.xml
