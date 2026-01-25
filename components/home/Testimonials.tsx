@@ -6,13 +6,13 @@ export default function Testimonials() {
       name: 'Sarah Johnson',
       role: 'CEO, TechStart',
       image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop',
-      content: 'webkitstore transformed our online presence completely. The attention to detail and modern design approach exceeded all our expectations. Our conversion rates increased by 150% within the first month!'
+      content: 'growkit transformed our online presence completely. The attention to detail and modern design approach exceeded all our expectations. Our conversion rates increased by 150% within the first month!'
     },
     {
       name: 'Michael Chen',
       role: 'Founder, InnovateLab',
       image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop',
-      content: 'Working with webkitstore was a game-changer. They delivered a stunning website that perfectly captures our brand identity. The team is professional, responsive, and truly understands modern design.'
+      content: 'Working with growkit was a game-changer. They delivered a stunning website that perfectly captures our brand identity. The team is professional, responsive, and truly understands modern design.'
     },
     {
       name: 'Emily Rodriguez',
@@ -30,7 +30,7 @@ export default function Testimonials() {
             What Our Clients Say
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Do not just take our word for it. Hear from businesses that have transformed with webkitStore.
+            Do not just take our word for it. Hear from businesses that have transformed with growkit.
           </p>
         </div>
 

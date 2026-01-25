@@ -5,8 +5,8 @@ import ContactInfo from "@/components/contact/ContactInfo";
 import MapSection from "@/components/contact/MapSection";
 
 export const metadata: Metadata = {
-  title: "Contact Us - webkitstore | Get in Touch",
-  description: "Ready to start your project? Contact webkitstore today for a free consultation. We're here to help bring your digital vision to life.",
+  title: "Contact Us - growkit | Get in Touch",
+  description: "Ready to start your project? Contact growkit today for a free consultation. We're here to help bring your digital vision to life.",
   keywords: "contact design agency, web design consultation, get quote, design services inquiry",
 };
 

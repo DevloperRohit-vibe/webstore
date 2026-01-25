@@ -7,8 +7,8 @@ import Testimonials from "@/components/home/Testimonials";
 import CTA from "@/components/home/CTA";
 
 export const metadata: Metadata = {
-  title: "webkitStore - Premium websites , Design & digital Solutions",
-  description: "Build brilliant digital experiences fast with premium design templates. webkitstore provides you cutting-edge web solutions.",
+  title: "growkit - Premium websites , Design & digital Solutions",
+  description: "Build brilliant digital experiences fast with premium design templates. growkit provides you cutting-edge web solutions.",
 };
 
 export default function Home() {
