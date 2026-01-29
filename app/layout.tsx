@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name="google-site-verification" content="WCa0PICmHpRFT2crQNZ-X9ykXfS9kX6teYbxfvCrOqM" />
+      <meta name="google-site-verification" content="1iO7dbSEUUhTnAROwPaz4oVWB-KCdXjckHbGpBI7BLM" />
       <body className="antialiased">
         <SmoothScroll>
           <Navbar />
